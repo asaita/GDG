@@ -1,0 +1,105 @@
+.container {
+    width: calc(100% - 40px);
+
+
+    border: 1px solid #410204;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+
+}
+
+.left-column,.right-column {
+    flex: 1;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    padding: 10px;
+    background-color: #802125;
+    text-align: center;
+    color:white;
+}
+
+nav ul{
+
+    list-style-type: none;
+
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #845052;
+    
+}
+
+
+
+
+.row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+
+}
+
+label {
+    padding: 5px;
+    color: #802125;
+    font-weight: 700;
+    
+}
+
+button {
+    background-color: #b22e33;
+    height: 33px;
+    border: none;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    margin: 5px;
+
+
+}
+
+h2 {
+    margin-left: 15px;
+}
+
+button:hover {
+    background-color: #802125;
+    color: white;
+}
+
+input,
+textarea,
+select {
+    width: calc(100% - 150px);
+    padding: 8px;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+.mealDetails {
+    width: calc(100% - 10px);
+    ;
+    padding: 8px;
+
+    box-sizing: border-box;
+
+}
